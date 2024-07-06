@@ -1,0 +1,81 @@
+
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800 */
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* header style */
+.header{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+/* nav style */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+.btn-primary{
+    background-color: rgba(253, 110, 10, 1);
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    
+
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+.bold{
+    color: rgba(253, 110, 10, 1);
+    
+}
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.dark-2{
+    color: rgba(71, 71, 71, 1);
+}
+/* banner style */
+.banner-content{
+    max-width: 500px;
+}
+.banner-gettings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+.banner-image{
+    width: 584px ;
+    height: 676px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
